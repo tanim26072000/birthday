@@ -231,6 +231,12 @@ body {
   .six .hat {
     left: 40%;
   }
+
+  .six img {
+    display: inline-block;
+    max-width: 80%; /* Adjust the percentage to make the image smaller */
+    height: auto; /* Ensures the aspect ratio is maintained */
+  }
 }
 
 @media screen and (max-height: 800px) {
@@ -283,7 +289,7 @@ body {
   }
 
   .wish h5 {
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
 
   .nine p {
